@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300px;
+    line-height: 2;
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+} 
+header{
+    border: 1px solid burlywood;
+    height: 69.6vh;
+}
+nav h1{
+    border-bottom: 1px solid burlywood;
+    padding: 10px 10px;
+}
+nav ul{
+    border-bottom: 1px solid burlywood;
+    padding: 10px 10px;    
+}
+nav ul li{
+    border-bottom: 1px solid burlywood;
+    padding: 10px 10px;
+    background-color: rgb(148, 26, 26); 
+    color: burlywood;
+}
+nav ul li:hover{
+    background-color:bisque;
+    color: black;
+    cursor: pointer;
+}
+main{
+    text-align: justify;
+    padding: 20px 20px;
+    background-color: blanchedalmond;
+    border-bottom: 1px solid burlywood;
+    border: 3px solid rgb(148, 26, 26);    
+}
+
